@@ -1,13 +1,16 @@
-.top{
-    background-color: #E8F9FD;
-}
-
 body{
     margin: 0px;
+    text-align: center;
+}
+
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
 }
 
 #heading{
-    margin: 0px;
+    margin-top: 0;
 }
 
 .red{
@@ -41,3 +44,14 @@ body{
     text-decoration: underline;
 }
 
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
